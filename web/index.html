@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>megakeep-py | Keep Your MEGA Accounts Active</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="images/logo.svg" alt="MegaKeep-py Logo">
+                <h1>megakeep-py</h1>
+            </div>
+            <p class="tagline">Keep your MEGA accounts active, automatically.</p>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-content">
+                    <p>megakeep-py is a Python script that logs into your MEGA accounts periodically to prevent them
+                        from being deleted due to inactivity.</p>
+                    <div class="cta-buttons">
+                        <a href="https://github.com/i3p9/megakeep-py" class="btn primary">View on GitHub</a>
+                        <a href="https://github.com/i3p9/megakeep-py/archive/refs/heads/main.zip"
+                            class="btn secondary">Download</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/terminal.svg" alt="Terminal showing MegaKeep-py in action">
+                </div>
+            </section>
+
+            <section class="features">
+                <h2>Features</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>Account Monitoring</h3>
+                        <p>Check storage usage and account status for multiple MEGA accounts.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔄</div>
+                        <h3>Batch Processing</h3>
+                        <p>Process multiple accounts from a simple text file.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📝</div>
+                        <h3>Detailed Logging</h3>
+                        <p>Comprehensive logs to track all account activities.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🛡️</div>
+                        <h3>Error Handling</h3>
+                        <p>Robust error handling with retry mechanisms.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="usage">
+                <h2>How to Use</h2>
+                <div class="code-block">
+                    <pre><code># Install requirements
+# brew install --cask megacmd //for macos
+# sudo apt-get install megacmd //for linux
+# for the rest: https://mega.io/cmd
+
+# Edit accounts_example.txt with your accounts
+# Format: email@example.com:password
+
+# Run the script
+python keep.py</code></pre>
+                </div>
+                <p>For more detailed instructions, check out the <a href="https://github.com/i3p9/MegaKeep-py">GitHub
+                        repository</a>.</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>megakeep-py is an open-source project. Not affiliated with MEGA.</p>
+            <p>&copy; <span id="current-year"></span> | <a href="https://github.com/i3p9">GitHub</a></p>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>

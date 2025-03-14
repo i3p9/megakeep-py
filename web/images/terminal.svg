@@ -1,0 +1,10 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" rx="10" fill="#1A1A1A"/>
+  <text x="20" y="40" font-family="monospace" font-size="14" fill="#00FF00">$ python keep.py</text>
+  <text x="20" y="70" font-family="monospace" font-size="14" fill="#FFFFFF">[10:15:22] Starting to process 3 accounts</text>
+  <text x="20" y="100" font-family="monospace" font-size="14" fill="#FFFFFF">[10:15:30] Logging in as: user1@example.com</text>
+  <text x="20" y="130" font-family="monospace" font-size="14" fill="#FFFFFF">[10:15:35] Usage for user1@example.com: USED STORAGE: 2.5 GB</text>
+  <text x="20" y="160" font-family="monospace" font-size="14" fill="#FFFFFF">[10:15:45] Logging in as: user2@example.com</text>
+  <text x="20" y="190" font-family="monospace" font-size="14" fill="#FFFFFF">[10:15:50] Usage for user2@example.com: USED STORAGE: 1.8 GB</text>
+  <text x="20" y="220" font-family="monospace" font-size="14" fill="#FFFFFF">[10:16:00] Processing completed.</text>
+</svg>
