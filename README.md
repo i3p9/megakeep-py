@@ -1,6 +1,6 @@
 # MegaKeep-py
 
-MegaKeep-py is a Python script that uses the MEGA CLI to check the usage of Mega accounts.
+MegaKeep-py is a Python script that uses the MEGA CLI to login to multiple Mega accounts to make sure they are still active. Basically it "touches" the accounts to keep them from being deleted due to inactivity.
 
 ## Requirements
 
